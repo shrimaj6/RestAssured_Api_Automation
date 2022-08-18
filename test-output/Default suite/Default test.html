@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 18 15:39:15 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13024 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Tracks_Get_Trackss_Audio_Features()'><b>Tracks_Get_Trackss_Audio_Features</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Browse_Get_Recommendations()'><b>Browse_Get_Recommendations</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Artists_Get_Artists_Albums()'><b>Artists_Get_Artists_Albums</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Browse_Get_Several_Browse_Categories()'><b>Browse_Get_Several_Browse_Categories</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Episodes_Get_Several_Episode()'><b>Episodes_Get_Several_Episode</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Shows_Get_Several_Shows()'><b>Shows_Get_Several_Shows</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Shows_Get_Show()'><b>Shows_Get_Show</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Browse_Get_Available_Genre_Seeds()'><b>Browse_Get_Available_Genre_Seeds</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Tracks_Get_Tracks_Audio_Features()'><b>Tracks_Get_Tracks_Audio_Features</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Albums_Get_Album_Tracks()'><b>Albums_Get_Album_Tracks</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Artists_Get_Artists_Related_Artists()'><b>Artists_Get_Artists_Related_Artists</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Tracks_Get_Track()'><b>Tracks_Get_Track</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Tracks_Get_Several_Tracks()'><b>Tracks_Get_Several_Tracks</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Episode_Get_Episode()'><b>Episode_Get_Episode</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Playlist_Update_Item()'><b>Playlist_Update_Item</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Artists_Get_Several_Artists()'><b>Artists_Get_Several_Artists</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Search_Method()'><b>Search_Method</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Playlist_NewAdd_Item()'><b>Playlist_NewAdd_Item</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Get_Current_UserProfile()'><b>Get_Current_UserProfile</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Shows_Get_Show_Episodes()'><b>Shows_Get_Show_Episodes</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Browse_Get_New_Releases()'><b>Browse_Get_New_Releases</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Playlist_Get_User_Playlist()'><b>Playlist_Get_User_Playlist</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Playlist_U_Relete_Item()'><b>Playlist_U_Relete_Item</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Markets_Get_Available_Markets()'><b>Markets_Get_Available_Markets</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Albums_Get_Several_Albums()'><b>Albums_Get_Several_Albums</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Playlist_Creation()'><b>Playlist_Creation</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Albums_Get_Album()'><b>Albums_Get_Album</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>1</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Playlist_Get_Playlist_Item()'><b>Playlist_Get_Playlist_Item</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Personalization_Get_Users_Top_Items()'><b>Personalization_Get_Users_Top_Items</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Artists_Get_Artist()'><b>Artists_Get_Artist</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Tracks_Get_Tracks_Audio_Analysis()'><b>Tracks_Get_Tracks_Audio_Analysis</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Browse_Get_Featured_Playlists()'><b>Browse_Get_Featured_Playlists</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Playlist_Get_Cover_Image()'><b>Playlist_Get_Cover_Image</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Playlist_Get_Playlist()'><b>Playlist_Get_Playlist</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Get_UserProfile()'><b>Get_UserProfile</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+<tr>
+<td title='SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation.Playlist_Get_CurrentUser_Playlist()'><b>Playlist_Get_CurrentUser_Playlist</b><br>Test class: SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation</td>
+<td></td>
+<td>0</td>
+<td>SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc</td></tr>
+</table><p>
+</body>
+</html>

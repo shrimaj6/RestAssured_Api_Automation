@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="36" passed="36" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-18T15:39:15 IST" name="Default suite" finished-at="2022-08-18T15:39:28 IST" duration-ms="13024">
+    <groups>
+    </groups>
+    <test started-at="2022-08-18T15:39:15 IST" name="Default test" finished-at="2022-08-18T15:39:28 IST" duration-ms="13024">
+      <class name="SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation">
+        <test-method is-config="true" signature="Get_Token()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:15 IST" name="Get_Token" finished-at="2022-08-18T15:39:15 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Token -->
+        <test-method signature="Albums_Get_Album()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:15 IST" name="Albums_Get_Album" finished-at="2022-08-18T15:39:16 IST" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Albums_Get_Album -->
+        <test-method signature="Albums_Get_Album_Tracks()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:16 IST" name="Albums_Get_Album_Tracks" finished-at="2022-08-18T15:39:17 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Albums_Get_Album_Tracks -->
+        <test-method signature="Albums_Get_Several_Albums()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:17 IST" name="Albums_Get_Several_Albums" finished-at="2022-08-18T15:39:17 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Albums_Get_Several_Albums -->
+        <test-method signature="Artists_Get_Artist()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:17 IST" name="Artists_Get_Artist" finished-at="2022-08-18T15:39:17 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Artists_Get_Artist -->
+        <test-method signature="Artists_Get_Artists_Albums()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:17 IST" name="Artists_Get_Artists_Albums" finished-at="2022-08-18T15:39:18 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Artists_Get_Artists_Albums -->
+        <test-method signature="Artists_Get_Artists_Related_Artists()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:18 IST" name="Artists_Get_Artists_Related_Artists" finished-at="2022-08-18T15:39:18 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Artists_Get_Artists_Related_Artists -->
+        <test-method signature="Artists_Get_Several_Artists()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:18 IST" name="Artists_Get_Several_Artists" finished-at="2022-08-18T15:39:18 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Artists_Get_Several_Artists -->
+        <test-method signature="Browse_Get_Available_Genre_Seeds()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:18 IST" name="Browse_Get_Available_Genre_Seeds" finished-at="2022-08-18T15:39:18 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browse_Get_Available_Genre_Seeds -->
+        <test-method signature="Browse_Get_Featured_Playlists()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:18 IST" name="Browse_Get_Featured_Playlists" finished-at="2022-08-18T15:39:19 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browse_Get_Featured_Playlists -->
+        <test-method signature="Browse_Get_New_Releases()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:19 IST" name="Browse_Get_New_Releases" finished-at="2022-08-18T15:39:19 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browse_Get_New_Releases -->
+        <test-method signature="Browse_Get_Recommendations()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:19 IST" name="Browse_Get_Recommendations" finished-at="2022-08-18T15:39:20 IST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browse_Get_Recommendations -->
+        <test-method signature="Browse_Get_Several_Browse_Categories()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:20 IST" name="Browse_Get_Several_Browse_Categories" finished-at="2022-08-18T15:39:20 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browse_Get_Several_Browse_Categories -->
+        <test-method signature="Episode_Get_Episode()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:20 IST" name="Episode_Get_Episode" finished-at="2022-08-18T15:39:20 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Episode_Get_Episode -->
+        <test-method signature="Episodes_Get_Several_Episode()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:20 IST" name="Episodes_Get_Several_Episode" finished-at="2022-08-18T15:39:20 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Episodes_Get_Several_Episode -->
+        <test-method signature="Get_Current_UserProfile()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:20 IST" name="Get_Current_UserProfile" finished-at="2022-08-18T15:39:21 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Current_UserProfile -->
+        <test-method signature="Get_UserProfile()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:21 IST" name="Get_UserProfile" finished-at="2022-08-18T15:39:21 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_UserProfile -->
+        <test-method signature="Markets_Get_Available_Markets()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:21 IST" name="Markets_Get_Available_Markets" finished-at="2022-08-18T15:39:21 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Markets_Get_Available_Markets -->
+        <test-method signature="Personalization_Get_Users_Top_Items()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:21 IST" name="Personalization_Get_Users_Top_Items" finished-at="2022-08-18T15:39:22 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Personalization_Get_Users_Top_Items -->
+        <test-method signature="Playlist_Creation()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:22 IST" name="Playlist_Creation" finished-at="2022-08-18T15:39:22 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Playlist_Creation -->
+        <test-method signature="Playlist_Get_Cover_Image()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:22 IST" name="Playlist_Get_Cover_Image" finished-at="2022-08-18T15:39:22 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Playlist_Get_Cover_Image -->
+        <test-method signature="Playlist_Get_CurrentUser_Playlist()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:22 IST" name="Playlist_Get_CurrentUser_Playlist" finished-at="2022-08-18T15:39:23 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Playlist_Get_CurrentUser_Playlist -->
+        <test-method signature="Playlist_Get_Playlist()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:23 IST" name="Playlist_Get_Playlist" finished-at="2022-08-18T15:39:23 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Playlist_Get_Playlist -->
+        <test-method signature="Playlist_Get_Playlist_Item()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:23 IST" name="Playlist_Get_Playlist_Item" finished-at="2022-08-18T15:39:24 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Playlist_Get_Playlist_Item -->
+        <test-method signature="Playlist_Get_User_Playlist()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:24 IST" name="Playlist_Get_User_Playlist" finished-at="2022-08-18T15:39:24 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Playlist_Get_User_Playlist -->
+        <test-method signature="Playlist_NewAdd_Item()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:24 IST" name="Playlist_NewAdd_Item" finished-at="2022-08-18T15:39:24 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Playlist_NewAdd_Item -->
+        <test-method signature="Playlist_U_Relete_Item()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:24 IST" name="Playlist_U_Relete_Item" finished-at="2022-08-18T15:39:24 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Playlist_U_Relete_Item -->
+        <test-method signature="Playlist_Update_Item()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:24 IST" name="Playlist_Update_Item" finished-at="2022-08-18T15:39:25 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Playlist_Update_Item -->
+        <test-method signature="Search_Method()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:25 IST" name="Search_Method" finished-at="2022-08-18T15:39:25 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Method -->
+        <test-method signature="Shows_Get_Several_Shows()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:25 IST" name="Shows_Get_Several_Shows" finished-at="2022-08-18T15:39:25 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shows_Get_Several_Shows -->
+        <test-method signature="Shows_Get_Show()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:25 IST" name="Shows_Get_Show" finished-at="2022-08-18T15:39:26 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shows_Get_Show -->
+        <test-method signature="Shows_Get_Show_Episodes()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:26 IST" name="Shows_Get_Show_Episodes" finished-at="2022-08-18T15:39:26 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shows_Get_Show_Episodes -->
+        <test-method signature="Tracks_Get_Several_Tracks()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:26 IST" name="Tracks_Get_Several_Tracks" finished-at="2022-08-18T15:39:26 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tracks_Get_Several_Tracks -->
+        <test-method signature="Tracks_Get_Track()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:26 IST" name="Tracks_Get_Track" finished-at="2022-08-18T15:39:26 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tracks_Get_Track -->
+        <test-method signature="Tracks_Get_Tracks_Audio_Analysis()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:26 IST" name="Tracks_Get_Tracks_Audio_Analysis" finished-at="2022-08-18T15:39:27 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tracks_Get_Tracks_Audio_Analysis -->
+        <test-method signature="Tracks_Get_Tracks_Audio_Features()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:27 IST" name="Tracks_Get_Tracks_Audio_Features" finished-at="2022-08-18T15:39:28 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tracks_Get_Tracks_Audio_Features -->
+        <test-method signature="Tracks_Get_Trackss_Audio_Features()[pri:0, instance:SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation@485966cc]" started-at="2022-08-18T15:39:28 IST" name="Tracks_Get_Trackss_Audio_Features" finished-at="2022-08-18T15:39:28 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tracks_Get_Trackss_Audio_Features -->
+      </class> <!-- SpotifyRestAssured.SpotifyRestAssured.RestAssured_Api_Automation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
